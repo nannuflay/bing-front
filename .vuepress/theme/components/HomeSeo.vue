@@ -18,11 +18,11 @@
         </svg>
       </div>
     </div>
-    <div class="md:flex flex-row  justify-center text-center search-boxs sm:flex hidden">
+    <div class="flex flex-row  justify-center text-center search-boxs">
       <img src="../assets/logo.png" alt="logo" class="w-20 h-10 mx-10"> 
-        <div class="relative">
+        <div class="relative sm:flex md:flex hidden">
           <input 
-            class=" shadow-lg border rounded-lg py-2 px-3 text-grey-darker h-12"
+            class="h-12 shadow-lg  outline-none rounded-lg py-2 px-3 text-grey-darker"
             style="width: 530px"
           > 
           <div class=" absolute pin-t pin-r m-3 z-10">
