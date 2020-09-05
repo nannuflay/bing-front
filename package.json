@@ -13,6 +13,7 @@
     "froala-editor": "^3.2.1",
     "vue": "^2.6.12",
     "vue-froala-wysiwyg": "^3.2.1-1",
+    "vue-router": "^3.4.3",
     "vuepress": "^1.5.4"
   }
 }

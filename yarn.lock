@@ -946,11 +946,6 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
 
-"@ungap/global-this@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@ungap/global-this/-/global-this-0.3.1.tgz#e37e005301c64484a61eed90305210bf078a4bc5"
-  integrity sha512-6gxLxSsXmt3XcC2p0mRjeHOtZemfs/IswAyWJZU0b8UvCQAegRpjSrQK0Y+u3OQQ3V0ZYQkHVCV9V3dxnlJ5Zw==
-
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@vue/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.0.0.tgz#048fe579958da408fb7a8b2a3ec050b50a661040"
@@ -1596,11 +1591,6 @@ atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
-
-autobind-decorator@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/autobind-decorator/-/autobind-decorator-2.4.0.tgz#ea9e1c98708cf3b5b356f7cf9f10f265ff18239c"
-  integrity sha512-OGYhWUO72V6DafbF8PM8rm3EPbfuyMZcJhtm5/n26IDwO18pohE4eNazLoCGhPiXOCD0gEGmrbU3849QvM8bbw==
 
 autocomplete.js@0.36.0:
   version "0.36.0"
@@ -4550,21 +4540,6 @@ javascript-stringify@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/javascript-stringify/-/javascript-stringify-2.0.1.tgz#6ef358035310e35d667c675ed63d3eb7c1aa19e5"
   integrity sha512-yV+gqbd5vaOYjqlbk16EG89xB5udgjqQF3C5FAORDg4f/IS1Yc5ERCv5e/57yBcfJYw05V5JyIXabhwb75Xxow==
-
-jodit-vue@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/jodit-vue/-/jodit-vue-2.2.1.tgz#845886ebfb338d5231c57798331c285f9a2fd86f"
-  integrity sha512-bNyMJhkv3lRm/yzveKvJUPXKZik4hpTad1/vED9FEzZmuDart2f9NYLQ0P1ZiYKsOGEMHvx5gNjBMD2W6G+Lpg==
-  dependencies:
-    "@ungap/global-this" "^0.3.1"
-    jodit "^3.2.46"
-
-jodit@^3.2.46:
-  version "3.4.26"
-  resolved "https://registry.yarnpkg.com/jodit/-/jodit-3.4.26.tgz#6ebe3b53c985c985855e544bf973a7860e3edb88"
-  integrity sha512-u7xJ9g1cJ1GYVUe+Bu09SIs2qYg+dJJBIutKD7kGWUXQ4ogID7wsLpo8JhOYDevvmpSCDAaVEDE66yFZ0dh9AQ==
-  dependencies:
-    autobind-decorator "^2.4.0"
 
 js-base64@^2.1.9:
   version "2.6.4"
@@ -7754,7 +7729,7 @@ vue-loader@^15.7.1:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-router@^3.1.3:
+vue-router@^3.1.3, vue-router@^3.4.3:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.4.3.tgz#fa93768616ee338aa174f160ac965167fa572ffa"
   integrity sha512-BADg1mjGWX18Dpmy6bOGzGNnk7B/ZA0RxuA6qedY/YJwirMfKXIDzcccmHbQI0A6k5PzMdMloc0ElHfyOoX35A==
