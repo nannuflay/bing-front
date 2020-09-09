@@ -18,6 +18,6 @@ export default ({ // the options for the root Vue instance
 }) => {
   // ...apply enhancements to the app
   router.addRoutes([
-    { path: '/editor', component: editor },
+    { path: '/articles', component: editor },
   ]);
 }

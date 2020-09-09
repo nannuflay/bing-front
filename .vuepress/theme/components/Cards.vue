@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-10 flex flex-col justify-center" style="height:500px">
+  <div class=" flex flex-col justify-center" style="height:500px">
     <div class="flex flex-row justify-between items-baseline mb-2  card-container mx-auto">
       <div>
         <span class="font-bold text-grey-darkest text-xs">LATEST FROM YOUR ORGANIZATION</span>
@@ -109,17 +109,6 @@
         <span class="text-xs text-purple-dark">See more</span>
       </div>
     </div>
-    <router-link 
-      to="/editor" 
-      class="mt-24 mx-auto"
-    >
-      <button
-        class="shadow-lg h-10 bg-teal-dark rounded-full text-grey-light hover:bg-teal-darker text-sm"
-        style="width:160px"
-      >
-        Go to editor page
-      </button>
-    </router-link>
   </div>
 </template>
 
