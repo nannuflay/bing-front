@@ -40,13 +40,13 @@
               alt="Avatar profile"
               class=" mx-1 w-8 h-8 rounded-full cursor-pointer"
             >
-            <span class="text-xs mr-4">My profile</span>
+            <span class="text-xs mr-6">My profile</span>
           </div>
           <div class="mx-2  mt-2 h-12 border border-grey-light rounded-lg flex items-center justify-between cursor-pointer hover:bg-grey-lighter" style="width:130px">
             <svg class="mx-1 w-8 h-8  text-blue-dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.4-2.7a1 1 0 01-.6-1V5.7a1 1 0 011.4-.9L9 7m0 13l6-3m-6 3V7m6 10l4.6 2.3a1 1 0 001.4-1V7.7a1 1 0 00-.6-.9L15 4m0 13V4m0 0L9 7"/>
             </svg>
-            <span class="text-xs mr-4">My Office</span>
+            <span class="text-xs mr-6">My Office</span>
           </div>
         </div>
       </div>

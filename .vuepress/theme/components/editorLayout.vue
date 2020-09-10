@@ -1,15 +1,15 @@
 <template>
   <div class="">
-    <div class="h-10 p-2 w-full bg-grey-lighter ">
+    <div class=" h-14  p-4 w-full bg-grey-lightest ">
       <div class="flex flex-row justify-between" style="margin: 0px 190px">
         <div class="md:inline-flex hidden sm:inline-flex">
           <router-link to="/">
-            <button class=" text-grey-darker text-sm mr-4 focus:outline-none hover:text-black">Images</button>
+            <button class=" text-grey-darker text-sm mr-8 focus:outline-none hover:text-black">Images</button>
           </router-link>
           <router-link to="/articles">
             <button class=" text-grey-darker text-sm focus:outline-none hover:text-black">Articles</button>
           </router-link>
-          <svg class="h-4 w-4 mx-6 text-grey-darker cursor-pointer hover:text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg class="h-4 w-4 mx-8 text-grey-darker cursor-pointer hover:text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h0m7 0h0m7 0h0M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"/>
           </svg>
         </div>

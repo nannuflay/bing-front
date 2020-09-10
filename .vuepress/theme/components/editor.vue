@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <jodit-editor v-model="content" :config="config" />
+        <jodit-editor :config="config" />
     </div>
 </template>
  
@@ -16,8 +16,9 @@ export default {
     data () {
         return {
             config: {
-              height: 500,
-              width:1000
+              height: 560,
+              width:1050,
+              placeholder: 'make your own article...',
             }
         }
     }
