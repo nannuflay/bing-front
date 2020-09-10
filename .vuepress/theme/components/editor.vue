@@ -1,25 +1,25 @@
 <template>
-  <div class="froala-editor">
-    <froala :tag="'textarea'" :config="config" v-model="model" ></froala>  
-  </div>
+    <div id="app">
+        <jodit-editor v-model="content" :config="config" />
+    </div>
 </template>
-
+ 
 <script>
-import VueFroala from 'vue-froala-wysiwyg';
+import 'jodit/build/jodit.min.css'
+import { JoditEditor } from 'jodit-vue'
+ 
 export default {
-  data () {
-    return {
-      config: {
-        placeholderText: 'Edit Your Content Here!',
-        height: 430,
-        toolbarButtons: ['fullscreen', 'bold', 'italic', 'underline', 'strikeThrough', 'subscript', 'superscript', '|', 'fontFamily', 'fontSize', 'color', 'inlineStyle', 'paragraphStyle', '|', 'paragraphFormat', 'align', 'formatOL', 'formatUL', 'outdent', 'indent', 'quote', '-', 'insertLink', 'insertImage', 'insertVideo', 'insertFile', 'insertTable', '|', 'emoticons', 'specialCharacters', 'insertHR', 'selectAll', 'clearFormatting', '|', 'print', 'help', 'html', '|', 'undo', 'redo'],
-      },
-      model: ''
+    name: 'app',
+ 
+    components: { JoditEditor },
+ 
+    data () {
+        return {
+            config: {
+              height: 500,
+              width:1000
+            }
+        }
     }
-  },
 }
 </script>
-
-<style>
-
-</style>
