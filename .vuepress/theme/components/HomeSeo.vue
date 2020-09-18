@@ -37,7 +37,7 @@ export default {
 
 <style>
    .navbar {
-    background-image: url(https://www.bingwallpaperhd.com/wp-content/uploads/2020/02/CloudsPelmo.jpg);
+    background-image: url("../assets/CloudsPelmo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
